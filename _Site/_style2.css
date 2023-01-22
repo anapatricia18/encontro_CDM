@@ -1,0 +1,393 @@
+@charset "utf-8";
+
+#retangulo{
+		background: rgba(255,255,255,1);
+		width: 1292px;
+		height: 650px;
+		box-shadow: 3px 2px 6px grey;
+	}
+
+#retangulo_{
+		background: rgba(241,156,121,1);
+		width: 1292px;
+		height: 140px;
+		box-shadow: 3px 1px 6px grey;
+	}
+
+#Imagem_4 {
+		position: absolute;
+		width: 269px;
+		height: 107px;
+		left: 330px;
+		top: 17px;
+		overflow: visible;
+	}
+
+#fundo{
+		background-image: url(fundo.png);
+		background-size: 80%;
+	}
+
+a:link {
+  		text-decoration: none;
+		color: rgba(0,0,0,1);
+	}
+
+a:visited {
+  		text-decoration: none;
+		color: rgba(0,0,0,1);
+	}
+
+a:hover {
+  		text-decoration: none;
+		color: rgba(241,156,121,1);
+	}
+
+a:active {
+  		text-decoration: none;
+		color: rgba(0,0,0,1);
+	}
+
+#Inscricoes_Workshops {
+		left: 430px;
+		top: 180px;
+		position: absolute;
+		overflow: visible;
+		width: 419px;
+		height: 30px;
+		text-align: left;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(0,0,0,1);
+		letter-spacing: 1px;
+		text-transform: capitalize;
+	}
+
+#barras{
+		width: 50%;
+		margin-left: -710px;
+		margin-top: -365px;
+	}
+
+#Seleciona_o_Workshop_Pretendido{
+		left: 430px;
+		top: 250px;
+		position: absolute;
+		overflow: visible;
+		width: 411px;
+		height: 24px;
+		text-align: left;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(0,0,0,1);
+		letter-spacing: 1px;
+	}
+
+#Dados_Pessoais{
+		left: 430px;
+		top: 350px;
+		position: absolute;
+		overflow: visible;
+		width: 267px;
+		height: 25px;
+		text-align: left;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 21px;
+		color: rgba(0,0,0,1);
+		letter-spacing: 1px;
+	}
+
+#Nome_Completo{
+		left: 430px;
+		top: 385px;
+		position: absolute;
+		overflow: visible;
+		width: 387px;
+		height: 24px;
+		text-align: left;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(0,0,0,1);
+		letter-spacing: 1px;
+		text-transform: capitalize;
+	}
+
+#selecionar{
+		position: absolute;
+		overflow: visible;
+		width: 492px;
+		height: 37px;
+		left: 430px;
+		top: 300px;
+		background: rgba(230,230,230,1);
+		border: none;
+		
+	}
+
+#fname{
+		position: absolute;
+		overflow: visible;
+		width: 485px;
+		height: 30px;
+		left: 430px;
+		top: 430px;
+		background: rgba(230,230,230,1);
+		border: none;
+	}
+
+#Telemovel{
+		left: 430px;
+		top: 455px;
+		position: absolute;
+		overflow: visible;
+		width: 387px;
+		height: 24px;
+		text-align: left;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(0,0,0,1);
+		letter-spacing: 1px;
+		text-transform: capitalize;
+	}
+
+#ftelemovel{
+		position: absolute;
+		overflow: visible;
+		width: 485px;
+		height: 30px;
+		left: 430px;
+		top: 500px;
+		background: rgba(230,230,230,1);
+		border: none;
+	}
+
+#Email{
+		left: 430px;
+		top: 525px;
+		position: absolute;
+		overflow: visible;
+		width: 387px;
+		height: 24px;
+		text-align: left;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(0,0,0,1);
+		letter-spacing: 1px;
+		text-transform: capitalize;
+	}
+
+#femail{
+		position: absolute;
+		overflow: visible;
+		width: 485px;
+		height: 30px;
+		left: 430px;
+		top: 570px;
+		background: rgba(230,230,230,1);
+		border: none;
+	}
+
+#Ano{
+		left: 430px;
+		top: 595px;
+		position: absolute;
+		overflow: visible;
+		width: 387px;
+		height: 24px;
+		text-align: left;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(0,0,0,1);
+		letter-spacing: 1px;
+		text-transform: capitalize;
+	}
+
+#selecionar2{
+		position: absolute;
+		overflow: visible;
+		width: 492px;
+		height: 37px;
+		left: 430px;
+		top: 640px;
+		background: rgba(230,230,230,1);
+		border: none;
+		
+	}
+
+#Curso{
+		left: 1020px;
+		top: 250px;
+		position: absolute;
+		overflow: visible;
+		width: 387px;
+		height: 24px;
+		text-align: left;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(0,0,0,1);
+		letter-spacing: 1px;
+		text-transform: capitalize;
+	}
+
+#selecionar3{
+		position: absolute;
+		overflow: visible;
+		width: 492px;
+		height: 37px;
+		left: 1020px;
+		top: 300px;
+		background: rgba(230,230,230,1);
+		border: none;
+		
+	}
+
+#Morada{
+		left: 1020px;
+		top: 385px;
+		position: absolute;
+		overflow: visible;
+		width: 387px;
+		height: 24px;
+		text-align: left;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(0,0,0,1);
+		letter-spacing: 1px;
+		text-transform: capitalize;
+	}
+
+#fmorada{
+		position: absolute;
+		overflow: visible;
+		width: 485px;
+		height: 30px;
+		left: 1020px;
+		top: 430px;
+		background: rgba(230,230,230,1);
+		border: none;
+	}
+
+#Codigo_Postal{
+		left: 1020px;
+		top: 455px;
+		position: absolute;
+		overflow: visible;
+		width: 387px;
+		height: 24px;
+		text-align: left;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(0,0,0,1);
+		letter-spacing: 1px;
+		text-transform: capitalize;
+	}
+
+#fpostal{
+		position: absolute;
+		overflow: visible;
+		width: 150px;
+		height: 30px;
+		left: 1020px;
+		top: 500px;
+		background: rgba(230,230,230,1);
+		border: none;
+	}
+
+#botao{
+		position: absolute;
+		overflow: visible;
+		width: 198px;
+		height: 47px;
+		left: 860px;
+		top: 715px;
+		background: rgba(241,156,121,1);
+		border-radius: 30px;
+		border: none;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 18px;
+		cursor: pointer;
+		
+	}
+
+#botao2{
+		position: absolute;
+		overflow: visible;
+		width: 198px;
+		height: 47px;
+		left: 860px;
+		top: 715px;
+		background: rgba(241,156,121,1);
+		border-radius: 30px;
+		border: none;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 18px;
+		cursor: pointer;
+		
+	}
+
+#casa{
+		position: absolute;
+		width: 85px;
+		height: 55px;
+		left: 1293px;
+		top: 740px;
+	}
+
+#Voltar_Para_a_Pagina_Inicial{
+		left: 1330px;
+		top: 750px;
+		position: absolute;
+		overflow: visible;
+		width: 278px;
+		height: 19px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 12px;
+		color: rgba(0,0,0,1);
+		letter-spacing: 0.5px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

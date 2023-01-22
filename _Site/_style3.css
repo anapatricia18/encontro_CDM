@@ -1,0 +1,111 @@
+@charset "utf-8";
+
+#retangulo{
+		background: rgba(255,255,255,1);
+		width: 1292px;
+		height: 650px;
+		box-shadow: 3px 2px 6px grey;
+	}
+
+#retangulo_{
+		background: rgba(241,156,121,1);
+		width: 1292px;
+		height: 140px;
+		box-shadow: 3px 1px 6px grey;
+	}
+
+#Imagem_4 {
+		position: absolute;
+		width: 269px;
+		height: 107px;
+		left: 330px;
+		top: 17px;
+		overflow: visible;
+	}
+
+#fundo{
+		background-image: url(fundo.png);
+		background-size: 80%;
+	}
+
+a:link {
+  		text-decoration: none;
+		color: rgba(0,0,0,1);
+	}
+
+a:visited {
+  		text-decoration: none;
+		color: rgba(0,0,0,1);
+	}
+
+a:hover {
+  		text-decoration: none;
+		color: rgba(241,156,121,1);
+	}
+
+a:active {
+  		text-decoration: none;
+		color: rgba(0,0,0,1);
+	}
+
+#Inscricao_Submetida_Com_Sucesso{
+		left: 744px;
+		top: 335px;
+		position: absolute;
+		overflow: visible;
+		width: 434px;
+		height: 74px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 30px;
+		color: rgba(0,0,0,1);
+		letter-spacing: 1px;
+		text-transform: uppercase;
+	}
+
+#Voltar_Para_a_Pagina_Inicial{
+		left: 830px;
+		top: 635px;
+		position: absolute;
+		overflow: visible;
+		width: 278px;
+		height: 19px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 15px;
+		color: rgba(0,0,0,1);
+		letter-spacing: 0.5px;
+	}
+		
+#Imagem_5 {
+		position: absolute;
+		width: 99px;
+		height: 66px;
+		left: 735px;
+		top: 625px;
+		overflow: visible;
+	}
+
+#bola_verde{
+		position: absolute;
+		width: 220px;
+		height: 300px;
+		left: 850px;
+		top: 350px;
+		overflow: visible;
+	}
+
+
+
+
+
+
+
+
+
+
+

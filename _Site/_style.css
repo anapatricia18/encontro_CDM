@@ -1,0 +1,2935 @@
+@charset "utf-8";
+
+#_site {
+		position: absolute;
+		width: 1890px;
+		height: 14580px;
+		top: 0px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		background-image: url(fundo.png);
+		background-size: 80%;
+		
+	}
+
+a:link {
+	  	text-decoration: none;
+		color: rgba(134,134,134,1);
+	}
+
+a:visited {
+	  	text-decoration: none;
+		color: rgba(134,134,134,1);
+	}
+
+a:hover {
+	  	text-decoration: none;	
+		color: rgba(241,156,121,1);
+	}
+
+a:active {
+		text-decoration: none;
+		color: rgba(241,156,121,1);
+	}
+
+a.one:link {
+	  	text-decoration: none;
+		color: rgba(255,255,255,1);
+	}
+
+a.one:visited {
+	  	text-decoration: none;
+		color: rgba(255,255,255,1);
+	}
+
+a.one:hover {
+	  	text-decoration: none;	
+		color: rgba(255,255,255,1);
+	}
+
+a.one:active {
+		text-decoration: none;
+		color: rgba(255,255,255,1);
+	}
+
+#retangulo{
+		background: #F8F8F8;
+		width: 1890px;
+		height: 160px;
+		position: absolute;
+	
+	}
+
+#apresentacao{
+		left: 750px;
+		top: 80px;
+		position: absolute;
+		overflow: visible;
+		width: 205px;
+		height: 24px;
+		text-align: left;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 15px;
+		color: rgba(134,134,134,1);
+		letter-spacing: 1px;
+		text-transform: uppercase;
+	}
+
+#programa{
+		left: 950px;
+		top: 80px;
+		position: absolute;
+		overflow: visible;
+		width: 205px;
+		height: 24px;
+		text-align: left;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 15px;
+		color: rgba(134,134,134,1);
+		letter-spacing: 1px;
+		text-transform: uppercase;
+	}
+
+#oradores{
+		left: 1115px;
+		top: 80px;
+		position: absolute;
+		overflow: visible;
+		width: 205px;
+		height: 24px;
+		text-align: left;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 15px;
+		color: rgba(134,134,134,1);
+		letter-spacing: 1px;
+		text-transform: uppercase;
+	}
+
+#contactos{
+		left: 1270px;
+		top: 80px;
+		position: absolute;
+		overflow: visible;
+		width: 205px;
+		height: 24px;
+		text-align: left;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 15px;
+		color: rgba(134,134,134,1);
+		letter-spacing: 1px;
+		text-transform: uppercase;
+	}
+
+#inscricoes{
+		left: 1440px;
+		top: 80px;
+		position: absolute;
+		overflow: visible;
+		width: 205px;
+		height: 24px;
+		text-align: left;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 15px;
+		color: rgba(134,134,134,1);
+		letter-spacing: 1px;
+		text-transform: uppercase;
+	}
+
+#logotipo{
+		position: absolute;
+		width: 90px;
+		height: 120px;
+		left: 143px;
+		top: 20px;
+		overflow: visible;
+	}
+
+#auditorio{
+        position: absolute;
+        width: 1050px;
+        height: 700px;
+        left: 650px;
+        top: 150px;
+    }
+
+html{
+		scroll-behavior: smooth;
+	}
+
+.subir {	
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: fixed;
+		bottom: 50px;
+		right: 40px;
+		width: 50px;
+		height: 50px;
+		background-color: rgba(61,64,91,1);
+		text-decoration: none;
+		border-radius: 50%;
+	}
+.subir::after {
+		content: "↑";
+		font-size: 30px;
+		font-weight: bold;
+		color: rgba(255,255,255,1);
+		transition: margin-top 250ms;
+	}
+.subir:hover::after {
+    	margin-top:-8px;
+	}
+
+#retangulo__{
+        background-color: #F8F8F8;
+        width: 1537px;
+        height: 650px;
+        margin: 100px;
+    }
+
+#edicao_dos_Encontros_de_Comunicacao {
+        left: 355px;
+        top: 320px;
+        position: absolute;
+        overflow: visible;
+        width: 834px;
+        height: 195px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        color: rgba(49,49,49,1);
+        letter-spacing: 1px;
+        line-height: 10px;
+    }
+
+#traco_laranja_2{
+        left: 285px;
+        top: 407px;
+        position: absolute;
+        overflow: visible;
+        width: 270px;
+        height: 195px;
+        text-align: left;
+    }
+
+#Organizado_por_alunos {
+        left: 495px;
+        top: 477px;
+        position: absolute;
+        overflow: visible;
+        width: 638px;
+        height: 201px;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 17px;
+        color: rgba(49,49,49,1);
+        letter-spacing: 1px;
+    }
+
+#traco_1{
+		left: 520px;
+		top: 625px;
+		position: absolute;
+		overflow: visible;
+		width: 780px;
+		height: 500px;
+	}
+
+#video{
+		width: 630px;
+		height: 370px;
+		padding: 120px 0px 0px 480px;
+		position: static;
+	}
+
+#retangulo_a{
+		background: #3D405B;
+		width: 350px;
+		height: 180px;
+		margin-left: 1050px;
+		margin-top: -265px;
+		position: absolute;
+	}
+
+#ACERCA_DE {
+		left: 1023px;
+		top: 1140px;
+		position: absolute;
+		overflow: visible;
+		width: 95px;
+		height: 19px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 15px;
+		color: rgba(241,156,121,1);
+	}
+
+#Encontro {
+		left: 1025px;
+		top: 1152px;
+		position: absolute;
+		overflow: visible;
+		width: 249px;
+		height: 37px;
+		text-align: left;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+		text-transform: uppercase;
+	}
+
+#Durante_dois_dias {
+		left: 1072px;
+		top: 1195px;
+		position: absolute;
+		overflow: visible;
+		width: 325px;
+		height: 57px;
+		text-align: left;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		color: rgba(255,255,255,1);
+	}
+
+#traco_laranja{
+		left: 891px;
+		top: 1119px;
+		position: absolute;
+		width: 270px;
+		height: 200px;
+	}
+
+#retangulo_l{
+		background: rgba(241,156,121,1);
+		width: 120px;
+		height: 40px;
+		margin-left: 1160px;
+		margin-top: -105px;
+		position: absolute;
+	}
+
+#VER_MAIS {
+		left: 1183px;
+		top: 1288px;
+		position: absolute;
+		width: 254px;
+		height: 37px;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+		cursor: pointer;
+	}
+
+#traco_2{
+		margin-left: 200px;
+		margin-top: -90px;
+		overflow: visible;
+		width: 780px;
+		height: 500px;
+	}
+
+#retangulo_programa{
+		background: transparent;
+		width: 200px;
+		height: 340px;
+		margin-left: 463px;
+		margin-top: -110px;
+		position: absolute;
+		border: 8px solid rgba(241,156,121,1);
+	}
+
+#PROGRAMA{
+		left: 475px;
+		top: 1670px;
+		position: absolute;
+		overflow: visible;
+		width: 197px;
+		height: 396px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 60px;
+		color: rgba(0,0,0,1);
+		letter-spacing: 8px;
+	}
+
+#baixar{
+		width: 30px;
+		left: 630px;
+		top: 1715px;
+		position: absolute;
+	}
+
+#caminho_2{
+		margin-left: 400px;
+		margin-top: -265px;
+		overflow: visible;
+		width: 850px;
+		height: 500px;
+	}
+
+#n_9_de_Maio{
+		left: 1250px;
+		top: 1600px;
+		position: absolute;
+		overflow: hidden;
+		width: 428px;
+		height: 200px;
+		text-align: left;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 50px;
+		color: rgba(241,156,121,1);
+		text-transform: uppercase;
+	}
+
+#traco_a{
+		left: 1230px;
+		margin-top: -80px;
+		position: absolute;
+		width: 395px;
+		height: 35px;
+	}
+
+#Dia_da_comunicao{
+		left: 1100px;
+		top: 1695px;
+		position: absolute;
+		overflow: visible;
+		width: 428px;
+		height: 43px;
+		text-align: right;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(163,165,177,1);
+		text-transform: uppercase;
+	}
+
+#dr_pb{
+		position: absolute;
+		width: 565px;
+		height: 565px;
+		left: 900px;
+		top: 1870px;
+	}
+
+#n_10H{
+		left: 824px;
+		top: 1755px;
+		position: absolute;
+		overflow: visible;
+		width: 329px;
+		height: 183px;
+		text-align: left;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 100px;
+		color: rgba(61,64,91,1);
+	}
+		
+#Auditorio_ESEC{
+		left: 780px;
+		top: 1945px;
+		position: absolute;
+		overflow: visible;
+		width: 282px;
+		height: 37px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(134,134,134,1);
+	}
+
+#ret_a{
+		background: #3D405B;
+		width: 370px;
+		height: 75px;
+		margin-left: 880px;
+		margin-top: 295px;
+		position: absolute;
+	}
+
+#DANIEL_RAPOSO {
+		left: 880px;
+		top: 2328px;
+		position: absolute;
+		overflow: visible;
+		width: 370px;
+		height: 100px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 36px;
+		color: rgba(255,255,255,1);
+	}
+
+#circulo{
+		width: 60px;
+		height: 60px;
+		border-radius: 50%;
+		background-color: #3D405B;
+		margin-left: 1340px;
+		margin-top: -200px;
+		position: absolute;
+	}
+
+#mais {
+		left: 1185px;
+		top: 1823px;
+		position: absolute;
+		overflow: visible;
+		width: 370px;
+		height: 100px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 36px;
+		color: rgba(255,255,255,1);
+	}
+
+#Palestra1 {
+		left: 750px;
+		top: 2410px;
+		position: absolute;
+		overflow: visible;
+		width: 533px;
+		height: 37px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(0,0,0,1);
+	}
+
+#traco_laranja_3{
+		left: 846px;
+		top: 2350px;
+		position: absolute;
+		overflow: visible;
+		width: 130px;
+		height: 195px;
+		text-align: left;
+	}
+
+#caminho_3{
+		margin-left: 400px;
+		margin-top: 150px;
+		overflow: visible;
+		width: 620px;
+		height: 400px;
+	}
+
+#rm_{
+		position: absolute;
+		width: 565px;
+		height: 565px;
+		left: 460px;
+		top: 2600px;
+	}
+
+#n_11H{
+		left: 425px;
+		top: 2440px;
+		position: absolute;
+		overflow: visible;
+		width: 329px;
+		height: 183px;
+		text-align: left;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 100px;
+		color: rgba(61,64,91,1);
+	}
+		
+#Auditorio_ESEC_{
+		left: 375px;
+		top: 2630px;
+		position: absolute;
+		overflow: visible;
+		width: 282px;
+		height: 37px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(134,134,134,1);
+	}
+
+#ret_a2{
+		background: #3D405B;
+		width: 370px;
+		height: 75px;
+		margin-left: 545px;
+		margin-top: 485px;
+		position: absolute;
+	}
+
+#RUI_MASCARDINHAS {
+		left: 545px;
+		top: 3080px;
+		position: absolute;
+		overflow: visible;
+		width: 370px;
+		height: 100px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 30px;
+		color: rgba(255,255,255,1);
+	}
+
+#circulo2{
+		width: 60px;
+		height: 60px;
+		border-radius: 50%;
+		background-color: #3D405B;
+		margin-left: 900px;
+		margin-top: -25px;
+		position: absolute;
+	}
+
+#mais_{
+		left: 745px;
+		top: 2551px;
+		position: absolute;
+		overflow: visible;
+		width: 370px;
+		height: 100px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 36px;
+		color: rgba(255,255,255,1);
+	}
+
+#Palestra2 {
+		left: 415px;
+		top: 3165px;
+		position: absolute;
+		overflow: visible;
+		width: 533px;
+		height: 37px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(0,0,0,1);
+		line-height: 10px
+	}
+
+#traco_laranja_4{
+		left: 511px;
+		top: 3095px;
+		position: absolute;
+		overflow: visible;
+		width: 130px;
+		height: 195px;
+		text-align: left;
+	}
+
+#CDM {
+		opacity: 0.472;
+		left: 1190px;
+		top: 2300px;
+		position: absolute;
+		overflow: hidden;
+		width: 985px;
+		height: 690px;
+		text-align: left;
+		font-family: Gotham Black;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 350px;
+		color: rgba(61,64,91,1);
+	}
+
+#botao{
+		position: absolute;
+		overflow: visible;
+		width: 130px;
+		height: 30px;
+		left: 430px;
+		top: 2685px;
+		background: rgba(241,156,121,1);
+		border-radius: 30px;
+		border: none;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		cursor: pointer;
+	}
+
+#caminho_4{
+		margin-top: 940px;
+		margin-left: -300px;
+		width: 850px;
+		height: 500px;
+		position: absolute;
+	}
+
+#bs_{
+		position: absolute;
+		width: 565px;
+		height: 565px;
+		left: 1040px;
+		top: 3492px;
+	}
+
+#n_12H{
+		left: 1000px;
+		top: 3340px;
+		position: absolute;
+		overflow: visible;
+		width: 329px;
+		height: 183px;
+		text-align: left;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 100px;
+		color: rgba(61,64,91,1);
+	}
+		
+#Auditorio_ESEC_2{
+		left: 950px;
+		top: 3525px;
+		position: absolute;
+		overflow: visible;
+		width: 282px;
+		height: 37px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(134,134,134,1);
+	}
+
+#ret_a3{
+		background: #3D405B;
+		width: 370px;
+		height: 75px;
+		margin-left: 1090px;
+		margin-top: 1375px;
+		position: absolute;
+	}
+
+#BRUNO_SOUSA {
+		left: 1087px;
+		top: 3960px;
+		position: absolute;
+		overflow: visible;
+		width: 370px;
+		height: 100px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 36px;
+		color: rgba(255,255,255,1);
+	}
+
+#circulo3{
+		width: 60px;
+		height: 60px;
+		border-radius: 50%;
+		background-color: #3D405B;
+		margin-left: 1477px;
+		margin-top: 865px;
+		position: absolute;
+	}
+
+#mais_2{
+		left: 1322px;
+		top: 3441px;
+		position: absolute;
+		overflow: visible;
+		width: 370px;
+		height: 100px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 36px;
+		color: rgba(255,255,255,1);
+	}
+
+#Palestra3 {
+		left: 960px;
+		top: 4050px;
+		position: absolute;
+		overflow: visible;
+		width: 533px;
+		height: 37px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(0,0,0,1);
+		line-height: 10px
+	}
+
+#traco_laranja_5{
+		left: 1056px;
+		top: 3980px;
+		position: absolute;
+		overflow: visible;
+		width: 130px;
+		height: 195px;
+		text-align: left;
+	}
+
+#caminho_5{
+		margin-left: -646px;
+		margin-top: 1675px;
+		width: 850px;
+		position: absolute;
+	}
+
+#bs{
+		position: absolute;
+		width: 400px;
+		height: 400px;
+		left: 420px;
+		top: 4380px;
+	}
+
+#n_14_30H{
+		left: 400px;
+		top: 4130px;
+		position: absolute;
+		overflow: visible;
+		width: 329px;
+		height: 183px;
+		text-align: left;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 100px;
+		color: rgba(61,64,91,1);
+	}
+		
+#Auditorio_ESEC_3{
+		left: 350px;
+		top: 4318px;
+		position: absolute;
+		overflow: visible;
+		width: 282px;
+		height: 37px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(134,134,134,1);
+	}
+
+#ret_a4{
+		background: #3D405B;
+		width: 280px;
+		height: 50px;
+		margin-left: 460px;
+		margin-top: 2100px;
+		position: absolute;
+	}
+
+#BRUNO_SOUSA_ {
+		left: 415px;
+		top: 4685px;
+		position: absolute;
+		overflow: visible;
+		width: 370px;
+		height: 100px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 28px;
+		color: rgba(255,255,255,1);
+	}
+
+#circulo4{
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		background-color: #3D405B;
+		margin-left: 710px;
+		margin-top: 1765px;
+		position: absolute;
+	}
+
+#mais_3{
+		left: 545px;
+		top: 4344px;
+		position: absolute;
+		overflow: visible;
+		width: 370px;
+		height: 100px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 28px;
+		color: rgba(255,255,255,1);
+	}
+
+#Workshop {
+		left: 435px;
+		top: 4765px;
+		position: absolute;
+		overflow: visible;
+		width: 533px;
+		height: 37px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(0,0,0,1);
+		line-height: 10px
+	}
+
+#traco_laranja_6{
+		left: 371px;
+		top: 4696px;
+		position: absolute;
+		overflow: visible;
+		width: 130px;
+		height: 195px;
+		text-align: left;
+	}
+
+#botao2{
+		position: absolute;
+		overflow: visible;
+		width: 130px;
+		height: 30px;
+		left: 406px;
+		top: 4372px;
+		background: rgba(241,156,121,1);
+		border-radius: 30px;
+		border: none;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		cursor: pointer;
+	}
+
+#ab{
+		position: absolute;
+		width: 400px;
+		height: 400px;
+		left: 845px;
+		top: 4380px;
+	}
+
+#ret_a5{
+		background: #3D405B;
+		width: 280px;
+		height: 50px;
+		margin-left: 885px;
+		margin-top: 2100px;
+		position: absolute;
+	}
+
+#ANDRE_BRITO {
+		left: 840px;
+		top: 4685px;
+		position: absolute;
+		overflow: visible;
+		width: 370px;
+		height: 100px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 28px;
+		color: rgba(255,255,255,1);
+	}
+
+#circulo5{
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		background-color: #3D405B;
+		margin-left: 1135px;
+		margin-top: 1765px;
+		position: absolute;
+	}
+
+#mais_4{
+		left: 970px;
+		top: 4344px;
+		position: absolute;
+		overflow: visible;
+		width: 370px;
+		height: 100px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 28px;
+		color: rgba(255,255,255,1);
+	}
+
+#tracitos_1{
+		margin-left: -287px;
+		margin-top: 2330px;
+		width: 160px;
+		height: 400px;
+		position: absolute;
+	}
+
+#_ENCONTRO_ {
+		opacity: 0.472;
+		transform: rotate(270deg);
+		transform-origin: center;
+		left: -485px;
+		top: 7600px;
+		position: absolute;
+		overflow: hidden;
+		width: 1250px;
+		height: 500px;
+		text-align: left;
+		font-family: Gotham Black;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 180px;
+		color: rgba(61,64,91,1);
+		text-transform: uppercase;
+	}
+
+#traco_3{
+		margin-left: -400px;
+		margin-top: 3530px;
+		overflow: visible;
+		width: 780px;
+		height: 700px;
+		position: absolute;
+	}
+
+#n_10_de_Maio {
+		left: 200px;
+		top: 4900px;
+		position: absolute;
+		overflow: hidden;
+		width: 445px;
+		height: 100px;
+		text-align: left;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 50px;
+		color: rgba(241,156,121,1);
+		text-transform: uppercase;
+	}
+
+#Dia_do_design {
+		left: -63px;
+		top: 4995px;
+		position: absolute;
+		overflow: visible;
+		width: 428px;
+		height: 43px;
+		text-align: right;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(163,165,177,1);
+		text-transform: uppercase;
+	}
+
+#traco_a1{
+		left: 106px;
+		margin-top: 2977px;
+		position: absolute;
+		width: 395px;
+		height: 35px;
+	}
+
+#n_9H30 {
+		left: 270px;
+		top: 5010px;
+		position: absolute;
+		overflow: visible;
+		width: 428px;
+		height: 183px;
+		text-align: left;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 100px;
+		color: rgba(61,64,91,1);
+	}
+
+#md{
+		width: 565px;
+		height: 565px;
+		left: 350px;
+		top: 5123px;
+		position: absolute;
+	}
+
+#Auditorio_ESEC_4{
+		left: 220px;
+		top: 5200px;
+		position: absolute;
+		overflow: visible;
+		width: 282px;
+		height: 37px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(61,64,91,1);
+	}
+
+#ret_a6{
+		background: #3D405B;
+		width: 370px;
+		height: 75px;
+		margin-left: 430px;
+		margin-top: 3010px;
+		position: absolute;
+	}
+
+#MR_DHEO_ {
+		left: 433px;
+		top: 5595px;
+		position: absolute;
+		overflow: visible;
+		width: 370px;
+		height: 100px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 36px;
+		color: rgba(255,255,255,1);
+	}
+
+#circulo6{
+		width: 60px;
+		height: 60px;
+		border-radius: 50%;
+		background-color: #3D405B;
+		margin-left: 785px;
+		margin-top: 2495px;
+		position: absolute;
+	}
+
+#mais_5{
+		left: 630px;
+		top: 5071px;
+		position: absolute;
+		overflow: visible;
+		width: 370px;
+		height: 100px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 36px;
+		color: rgba(255,255,255,1);
+	}
+
+#Palestra1_ {
+		left: 230px;
+		top: 5685px;
+		position: absolute;
+		overflow: visible;
+		width: 533px;
+		height: 37px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(0,0,0,1);
+	}
+
+#traco_laranja_7{
+		left: 324px;
+		top: 5625px;
+		position: absolute;
+		overflow: visible;
+		width: 130px;
+		height: 195px;
+		text-align: left;
+	}
+
+#caminho_6{
+		margin-top: 3300px;
+		margin-left: -330px;
+		width: 800px;
+		height: 530px;
+		position: absolute;
+	}
+
+#n_10_30H{
+		left: 880px;
+		top: 5755px;
+		position: absolute;
+		overflow: visible;
+		width: 329px;
+		height: 183px;
+		text-align: left;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 100px;
+		color: rgba(61,64,91,1);
+	}
+		
+#Auditorio_ESEC_5{
+		left: 830px;
+		top: 5946px;
+		position: absolute;
+		overflow: visible;
+		width: 282px;
+		height: 37px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(134,134,134,1);
+	}
+
+#ac{
+		width: 565px;
+		height: 565px;
+		left: 955px;
+		top: 5865px;
+		position: absolute;
+	}
+
+#ret_a7{
+		background: #3D405B;
+		width: 370px;
+		height: 75px;
+		margin-left: 1035px;
+		margin-top: 3750px;
+		position: absolute;
+	}
+
+#ANA_CORREIA_ {
+		left: 1030px;
+		top: 6335px;
+		position: absolute;
+		overflow: visible;
+		width: 370px;
+		height: 100px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 36px;
+		color: rgba(255,255,255,1);
+	}
+
+#circulo7{
+		width: 60px;
+		height: 60px;
+		border-radius: 50%;
+		background-color: #3D405B;
+		margin-left: 1390px;
+		margin-top: 3240px;
+		position: absolute;
+	}
+
+#mais_6{
+		left: 1235px;
+		top: 5817px;
+		position: absolute;
+		overflow: visible;
+		width: 370px;
+		height: 100px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 36px;
+		color: rgba(255,255,255,1);
+	}
+
+#Palestra2_ {
+		left: 840px;
+		top: 6425px;
+		position: absolute;
+		overflow: visible;
+		width: 533px;
+		height: 37px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(0,0,0,1);
+	}
+
+#traco_laranja_8{
+		left: 930px;
+		top: 6365px;
+		position: absolute;
+		overflow: visible;
+		width: 130px;
+		height: 195px;
+		text-align: left;
+	}
+
+#caminho_7{
+		margin-left: -646px;
+		margin-top: 4180px;
+		width: 700px;
+		height: 400px;
+		position: absolute;
+	}
+
+#r2{
+		width: 565px;
+		height: 565px;
+		left: 390px;
+		top: 6630px;
+		position: absolute;
+	}
+
+#n_12H_{
+		left: 315px;
+		top: 6517px;
+		position: absolute;
+		overflow: visible;
+		width: 329px;
+		height: 183px;
+		text-align: left;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 100px;
+		color: rgba(61,64,91,1);
+	}
+		
+#Auditorio_ESEC_6{
+		left: 263px;
+		top: 6700px;
+		position: absolute;
+		overflow: visible;
+		width: 282px;
+		height: 37px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(61,64,91,1);
+	}
+
+#ret_a8{
+		background: #3D405B;
+		width: 370px;
+		height: 75px;
+		margin-left: 470px;
+		margin-top: 4510px;
+		position: absolute;
+	}
+
+#R2_ {
+		left: 477px;
+		top: 7095px;
+		position: absolute;
+		overflow: visible;
+		width: 370px;
+		height: 100px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 36px;
+		color: rgba(255,255,255,1);
+	}
+
+#circulo8{
+		width: 60px;
+		height: 60px;
+		border-radius: 50%;
+		background-color: #3D405B;
+		margin-left: 820px;
+		margin-top: 4005px;
+		position: absolute;
+	}
+
+#mais_7{
+		left: 666px;
+		top: 6581px;
+		position: absolute;
+		overflow: visible;
+		width: 370px;
+		height: 100px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 36px;
+		color: rgba(255,255,255,1);
+	}
+
+#Palestra3_ {
+		left: 275px;
+		top: 7180px;
+		position: absolute;
+		overflow: visible;
+		width: 533px;
+		height: 37px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(0,0,0,1);
+	}
+
+#traco_laranja_9{
+		left: 362px;
+		top: 7120px;
+		position: absolute;
+		overflow: visible;
+		width: 130px;
+		height: 195px;
+		text-align: left;
+	}
+
+#caminho_8{
+		margin-top: 4880px;
+		margin-left: -250px;
+		width: 700px;
+		height: 400px;
+		position: absolute;
+	}
+
+#andre_c{
+		width: 565px;
+		height: 565px;
+		left: 920px;
+		top: 7360px;
+		position: absolute;
+	}
+
+#n_14_30H_{
+		left: 842px;
+		top: 7250px;
+		position: absolute;
+		overflow: visible;
+		width: 329px;
+		height: 183px;
+		text-align: left;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 100px;
+		color: rgba(61,64,91,1);
+	}
+		
+#Auditorio_ESEC_7{
+		left: 790px;
+		top: 7440px;
+		position: absolute;
+		overflow: visible;
+		width: 282px;
+		height: 37px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(61,64,91,1);
+	}
+
+#ret_a9{
+		background: #3D405B;
+		width: 370px;
+		height: 75px;
+		margin-left: 1000px;
+		margin-top: 5245px;
+		position: absolute;
+	}
+
+#ANDRE_CARRILHO {
+		left: 1000px;
+		top: 7835px;
+		position: absolute;
+		overflow: visible;
+		width: 370px;
+		height: 100px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 33px;
+		color: rgba(255,255,255,1);
+	}
+
+#circulo9{
+		width: 60px;
+		height: 60px;
+		border-radius: 50%;
+		background-color: #3D405B;
+		margin-left: 1352px;
+		margin-top: 4735px;
+		position: absolute;
+	}
+
+#mais_8{
+		left: 1197px;
+		top: 7312px;
+		position: absolute;
+		overflow: visible;
+		width: 370px;
+		height: 100px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 36px;
+		color: rgba(255,255,255,1);
+	}
+
+#workshop_ilus {
+		left: 870px;
+		top: 7915px;
+		position: absolute;
+		overflow: visible;
+		width: 533px;
+		height: 37px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(0,0,0,1);
+	}
+
+#traco_laranja_10{
+		left: 895px;
+		top: 7855px;
+		position: absolute;
+		overflow: visible;
+		width: 130px;
+		height: 195px;
+		text-align: left;
+	}
+
+#botao3{
+		position: absolute;
+		overflow: visible;
+		width: 130px;
+		height: 30px;
+		left: 845px;
+		top: 7495px;
+		background: rgba(241,156,121,1);
+		border-radius: 30px;
+		border: none;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		cursor: pointer;
+	}
+
+#n_11_de_Maio{
+		left: 1250px;
+		top: 8080px;
+		position: absolute;
+		overflow: hidden;
+		width: 428px;
+		height: 200px;
+		text-align: left;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 50px;
+		color: rgba(241,156,121,1);
+		text-transform: uppercase;
+	}
+
+#traco_a2{
+		left: 1235px;
+		margin-top: 6160px;
+		position: absolute;
+		width: 395px;
+		height: 35px;
+	}
+
+#Dia_da_multimedia{
+		left: 1105px;
+		top: 8175px;
+		position: absolute;
+		overflow: visible;
+		width: 428px;
+		height: 43px;
+		text-align: right;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(163,165,177,1);
+		text-transform: uppercase;
+	}
+
+#sm{
+		width: 565px;
+		height: 565px;
+		left: 450px;
+		top: 8300px;
+		position: absolute;
+	}
+
+#n_9_30H{
+		left: 375px;
+		top: 8187px;
+		position: absolute;
+		overflow: visible;
+		width: 329px;
+		height: 183px;
+		text-align: left;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 100px;
+		color: rgba(61,64,91,1);
+	}
+		
+#Auditorio_ESEC_8{
+		left: 325px;
+		top: 8375px;
+		position: absolute;
+		overflow: visible;
+		width: 282px;
+		height: 37px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(134,134,134,1);
+	}
+
+#ret_a10{
+		background: #3D405B;
+		width: 370px;
+		height: 75px;
+		margin-left: 530px;
+		margin-top: 6180px;
+		position: absolute;
+	}
+
+#SONIA_MATOS {
+		left: 530px;
+		top: 8770px;
+		position: absolute;
+		overflow: visible;
+		width: 370px;
+		height: 100px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 33px;
+		color: rgba(255,255,255,1);
+	}
+
+#circulo10{
+		width: 60px;
+		height: 60px;
+		border-radius: 50%;
+		background-color: #3D405B;
+		margin-left: 880px;
+		margin-top: 5675px;
+		position: absolute;
+	}
+
+#mais_9{
+		left: 726px;
+		top: 8251px;
+		position: absolute;
+		overflow: visible;
+		width: 370px;
+		height: 100px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 36px;
+		color: rgba(255,255,255,1);
+	}
+
+#palestra_1 {
+		left: 335px;
+		top: 8850px;
+		position: absolute;
+		overflow: visible;
+		width: 533px;
+		height: 37px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(0,0,0,1);
+	}
+
+#traco_laranja_11{
+		left: 425px;
+		top: 8790px;
+		position: absolute;
+		overflow: visible;
+		width: 130px;
+		height: 195px;
+		text-align: left;
+	}
+
+#caminho_9{
+		margin-top: 6460px;
+		margin-left: -255px;
+		width: 700px;
+		height: 500px;
+		position: absolute;
+	}
+
+#ef{
+		width: 565px;
+		height: 565px;
+		left: 920px;
+		top: 9035px;
+		position: absolute;
+	}
+
+#n_10_30H_{
+		left: 845px;
+		top: 8922px;
+		position: absolute;
+		overflow: visible;
+		width: 329px;
+		height: 183px;
+		text-align: left;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 100px;
+		color: rgba(61,64,91,1);
+	}
+		
+#Auditorio_ESEC_9{
+		left: 795px;
+		top: 9110px;
+		position: absolute;
+		overflow: visible;
+		width: 282px;
+		height: 37px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(61,64,91,1);
+	}
+
+#ret_a11{
+		background: #3D405B;
+		width: 370px;
+		height: 75px;
+		margin-left: 1000px;
+		margin-top: 6920px;
+		position: absolute;
+	}
+
+#EDGAR_FERREIRA {
+		left: 530px;
+		top: 9510px;
+		position: absolute;
+		overflow: visible;
+		width: 1310px;
+		height: 100px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 33px;
+		color: rgba(255,255,255,1);
+	}
+
+#circulo11{
+		width: 60px;
+		height: 60px;
+		border-radius: 50%;
+		background-color: #3D405B;
+		margin-left: 1350px;
+		margin-top: 6410px;
+		position: absolute;
+	}
+
+#mais_10{
+		left: 1196px;
+		top: 8987px;
+		position: absolute;
+		overflow: visible;
+		width: 370px;
+		height: 100px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 36px;
+		color: rgba(255,255,255,1);
+	}
+
+#palestra_2 {
+		left: 800px;
+		top: 9590px;
+		position: absolute;
+		overflow: visible;
+		width: 533px;
+		height: 37px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(0,0,0,1);
+	}
+
+#traco_laranja_12{
+		left: 895px;
+		top: 9530px;
+		position: absolute;
+		overflow: visible;
+		width: 130px;
+		height: 195px;
+		text-align: left;
+	}
+
+#caminho_10{
+		margin-left: -646px;
+		margin-top: 7240px;
+		width: 700px;
+		position: absolute;
+	}
+
+#ea{
+		width: 565px;
+		height: 565px;
+		left: 300px;
+		top: 9780px;
+		position: absolute;
+	}
+
+#n_12H__{
+		left: 250px;
+		top: 9667px;
+		position: absolute;
+		overflow: visible;
+		width: 329px;
+		height: 183px;
+		text-align: left;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 100px;
+		color: rgba(61,64,91,1);
+	}
+		
+#Auditorio_ESEC_11{
+		left: 200px;
+		top: 9855px;
+		position: absolute;
+		overflow: visible;
+		width: 282px;
+		height: 37px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(134,134,134,1);
+	}
+
+#ret_a12{
+		background: #3D405B;
+		width: 370px;
+		height: 75px;
+		margin-left: 380px;
+		margin-top: 7660px;
+		position: absolute;
+	}
+
+#EX_ALUNO {
+		left: -90px;
+		top: 10248px;
+		position: absolute;
+		overflow: visible;
+		width: 1310px;
+		height: 100px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 33px;
+		color: rgba(255,255,255,1);
+	}
+
+#circulo12{
+		width: 60px;
+		height: 60px;
+		border-radius: 50%;
+		background-color: #3D405B;
+		margin-left: 725px;
+		margin-top: 7155px;
+		position: absolute;
+	}
+
+#mais_11{
+		left: 571px;
+		top: 9731px;
+		position: absolute;
+		overflow: visible;
+		width: 370px;
+		height: 100px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 36px;
+		color: rgba(255,255,255,1);
+	}
+
+#palestra {
+		left: 170px;
+		top: 10330px;
+		position: absolute;
+		overflow: visible;
+		width: 533px;
+		height: 37px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(0,0,0,1);
+	}
+
+#traco_laranja_13{
+		left: 273px;
+		top: 10270px;
+		position: absolute;
+		overflow: visible;
+		width: 130px;
+		height: 195px;
+		text-align: left;
+	}
+
+#caminho_11{
+		margin-left: -530px;
+		margin-top: 8300px;
+		width: 400px;
+		position: absolute;
+	}
+
+#n_2_edicao{
+		left: 200px;
+		top: 10800px;
+		position: absolute;
+		overflow: hidden;
+		width: 428px;
+		height: 200px;
+		text-align: left;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 50px;
+		color: rgba(241,156,121,1);
+		text-transform: uppercase;
+	}
+
+#traco_a3{
+		left: 103px;
+		margin-top: 8885px;
+		position: absolute;
+		width: 395px;
+		height: 35px;
+	}
+
+#lancamento_revista{
+		left: 165px;
+		top: 10900px;
+		position: absolute;
+		overflow: visible;
+		width: 428px;
+		height: 43px;
+		text-align: right;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(163,165,177,1);
+		text-transform: uppercase;
+	}
+
+#wm{
+		width: 560px;
+		height: 390px;
+		left: 500px;
+		top: 11050px;
+		position: absolute;
+	}
+
+#n_14_30H_2{
+		left: 805px;
+		top: 10850px;
+		position: absolute;
+		overflow: visible;
+		width: 329px;
+		height: 183px;
+		text-align: left;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 100px;
+		color: rgba(61,64,91,1);
+	}
+		
+#Auditorio_ESEC_12{
+		left: 890px;
+		top: 11035px;
+		position: absolute;
+		overflow: visible;
+		width: 282px;
+		height: 37px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(134,134,134,1);
+	}
+
+#caminho_12{
+		margin-left: -300px;
+		margin-top: 9400px;
+		width: 500px;
+		position: absolute;
+	}
+
+#momento_musical{
+		left: 950px;
+		top: 11770px;
+		position: absolute;
+		overflow: hidden;
+		width: 600px;
+		height: 200px;
+		text-align: left;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 50px;
+		color: rgba(241,156,121,1);
+		text-transform: uppercase;
+	}
+
+#traco_a4{
+		left: 1190px;
+		margin-top: 9860px;
+		position: absolute;
+		width: 395px;
+		height: 35px;
+	}
+
+#pedro_janela{
+		left: 1060px;
+		top: 11875px;
+		position: absolute;
+		overflow: visible;
+		width: 428px;
+		height: 43px;
+		text-align: right;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(163,165,177,1);
+		text-transform: uppercase;
+	}
+
+#pj{
+		width: 500px;
+		height: 500px;
+		left: 988px;
+		top: 11980px;
+		position: absolute;
+	}
+
+#n_15H{
+		left: 930px;
+		top: 11830px;
+		position: absolute;
+		overflow: visible;
+		width: 329px;
+		height: 183px;
+		text-align: left;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 100px;
+		color: rgba(61,64,91,1);
+	}
+		
+#Auditorio_ESEC_13{
+		left: 875px;
+		top: 12020px;
+		position: absolute;
+		overflow: visible;
+		width: 282px;
+		height: 37px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(61,64,91,1);
+	}
+
+#retangulo_programa2{
+		background: transparent;
+		width: 420px;
+		height: 80px;
+		margin-left: 700px;
+		margin-top: 10100px;
+		position: absolute;
+		border: 8px solid rgba(241,156,121,1);
+	}
+
+#ORADORES{
+		left: 740px;
+		top: 12665px;
+		position: absolute;
+		overflow: visible;
+		width: 197px;
+		height: 396px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 55px;
+		color: rgba(0,0,0,1);
+		letter-spacing: 3px;
+	}
+
+#caminho_13{
+		margin-left: -650px;
+		margin-top: 10655px;
+		width: 400px;
+		position: absolute;
+	}
+
+
+#aspas {
+		left: -230px;
+		top: 12930px;
+		position: absolute;
+		overflow: hidden;
+		width: 704px;
+		height: 360px;
+		text-align: center;
+		font-family: Rockwell;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 300px;
+		color: rgba(241,156,121,1);
+	}
+
+#a1{
+		left: -50px;
+		top: 12930px;
+		width: 610px;
+		height: 400px;
+		position: absolute;
+		overflow: hidden;
+	}
+
+#aspas2 {
+		left: 120px;
+		top: 12930px;
+		position: absolute;
+		overflow: hidden;
+		width: 704px;
+		height: 360px;
+		text-align: center;
+		font-family: Rockwell;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 300px;
+		color: rgba(241,156,121,1);
+	}
+
+#a2{
+		left: 300px;
+		top: 12930px;
+		width: 610px;
+		height: 400px;
+		position: absolute;
+		overflow: hidden;
+	}
+
+#aspas3 {
+		left: 480px;
+		top: 12930px;
+		position: absolute;
+		overflow: hidden;
+		width: 704px;
+		height: 360px;
+		text-align: center;
+		font-family: Rockwell;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 300px;
+		color: rgba(241,156,121,1);
+	}
+
+#a3{
+		left: 650px;
+		top: 12930px;
+		width: 610px;
+		height: 400px;
+		position: absolute;
+		overflow: hidden;
+	}
+
+#aspas4 {
+		left: 830px;
+		top: 12930px;
+		position: absolute;
+		overflow: hidden;
+		width: 704px;
+		height: 360px;
+		text-align: center;
+		font-family: Rockwell;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 300px;
+		color: rgba(241,156,121,1);
+	}
+
+#a4{
+		left: 1000px;
+		top: 12930px;
+		width: 610px;
+		height: 400px;
+		position: absolute;
+		overflow: hidden;
+	}
+
+#aspas5 {
+		left: 1180px;
+		top: 12930px;
+		position: absolute;
+		overflow: hidden;
+		width: 704px;
+		height: 360px;
+		text-align: center;
+		font-family: Rockwell;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 300px;
+		color: rgba(241,156,121,1);
+	}
+
+#a5{
+		left: 1350px;
+		top: 12930px;
+		width: 610px;
+		height: 400px;
+		position: absolute;
+		overflow: hidden;
+	}
+
+#aspas6 {
+		left: -230px;
+		top: 13220px;
+		position: absolute;
+		overflow: hidden;
+		width: 704px;
+		height: 360px;
+		text-align: center;
+		font-family: Rockwell;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 300px;
+		color: rgba(241,156,121,1);
+	}
+
+#a6{
+		left: -50px;
+		top: 13220px;
+		width: 610px;
+		height: 400px;
+		position: absolute;
+		overflow: hidden;
+	}
+
+#aspas7 {
+		left: 120px;
+		top: 13220px;
+		position: absolute;
+		overflow: hidden;
+		width: 704px;
+		height: 360px;
+		text-align: center;
+		font-family: Rockwell;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 300px;
+		color: rgba(241,156,121,1);
+	}
+
+#a7{
+		left: 300px;
+		top: 13220px;
+		width: 610px;
+		height: 400px;
+		position: absolute;
+		overflow: hidden;
+	}
+
+#aspas8 {
+		left: 480px;
+		top: 13220px;
+		position: absolute;
+		overflow: hidden;
+		width: 704px;
+		height: 360px;
+		text-align: center;
+		font-family: Rockwell;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 300px;
+		color: rgba(241,156,121,1);
+	}
+
+#a8{
+		left: 650px;
+		top: 13220px;
+		width: 610px;
+		height: 400px;
+		position: absolute;
+		overflow: hidden;
+	}
+
+#aspas9 {
+		left: 830px;
+		top: 13220px;
+		position: absolute;
+		overflow: hidden;
+		width: 704px;
+		height: 360px;
+		text-align: center;
+		font-family: Rockwell;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 300px;
+		color: rgba(241,156,121,1);
+	}
+
+#a9{
+		left: 1000px;
+		top: 13220px;
+		width: 610px;
+		height: 400px;
+		position: absolute;
+		overflow: hidden;
+	}
+
+#aspas10 {
+		left: 1180px;
+		top: 13220px;
+		position: absolute;
+		overflow: hidden;
+		width: 704px;
+		height: 360px;
+		text-align: center;
+		font-family: Rockwell;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 300px;
+		color: rgba(241,156,121,1);
+	}
+
+#a10{
+		left: 1350px;
+		top: 13220px;
+		width: 610px;
+		height: 400px;
+		position: absolute;
+		overflow: hidden;
+	}
+
+#circ{
+		width: 30px;
+		height: 30px;
+		border-radius: 50%;
+		background-color: rgba(241,156,121,1);
+		left: 345px;
+		top: 12993px;
+		position: absolute;
+		z-index: 1;
+	}
+
+#ma{
+		left: 175px;
+		top: 12971px;
+		position: absolute;
+		overflow: visible;
+		width: 370px;
+		height: 100px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(255,255,255,1);
+		z-index: 1;
+	}
+
+#circ2{
+		width: 30px;
+		height: 30px;
+		border-radius: 50%;
+		background-color: rgba(241,156,121,1);
+		left: 695px;
+		top: 12993px;
+		position: absolute;
+		z-index: 1;
+	}
+
+#ma2{
+		left: 525px;
+		top: 12971px;
+		position: absolute;
+		overflow: visible;
+		width: 370px;
+		height: 100px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(255,255,255,1);
+		z-index: 1;
+	}
+
+#circ3{
+		width: 30px;
+		height: 30px;
+		border-radius: 50%;
+		background-color: rgba(241,156,121,1);
+		left: 1043px;
+		top: 12993px;
+		position: absolute;
+		z-index: 1;
+	}
+
+#ma3{
+		left: 873px;
+		top: 12971px;
+		position: absolute;
+		overflow: visible;
+		width: 370px;
+		height: 100px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(255,255,255,1);
+		z-index: 1;
+	}
+
+#circ4{
+		width: 30px;
+		height: 30px;
+		border-radius: 50%;
+		background-color: rgba(241,156,121,1);
+		left: 1395px;
+		top: 12993px;
+		position: absolute;
+		z-index: 1;
+	}
+
+#ma4{
+		left: 1225px;
+		top: 12971px;
+		position: absolute;
+		overflow: visible;
+		width: 370px;
+		height: 100px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(255,255,255,1);
+		z-index: 1;
+	}
+
+#circ4{
+		width: 30px;
+		height: 30px;
+		border-radius: 50%;
+		background-color: rgba(241,156,121,1);
+		left: 1395px;
+		top: 12993px;
+		position: absolute;
+		z-index: 1;
+	}
+
+#ma4{
+		left: 1225px;
+		top: 12971px;
+		position: absolute;
+		overflow: visible;
+		width: 370px;
+		height: 100px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(255,255,255,1);
+		z-index: 1;
+	}
+
+#circ5{
+		width: 30px;
+		height: 30px;
+		border-radius: 50%;
+		background-color: rgba(241,156,121,1);
+		left: 1745px;
+		top: 12993px;
+		position: absolute;
+		z-index: 1;
+	}
+
+#ma5{
+		left: 1575px;
+		top: 12971px;
+		position: absolute;
+		overflow: visible;
+		width: 370px;
+		height: 100px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(255,255,255,1);
+		z-index: 1;
+	}
+
+#circ6{
+		width: 30px;
+		height: 30px;
+		border-radius: 50%;
+		background-color: rgba(241,156,121,1);
+		left: 345px;
+		top: 13283px;
+		position: absolute;
+		z-index: 1;
+	}
+
+#ma6{
+		left: 175px;
+		top: 13261px;
+		position: absolute;
+		overflow: visible;
+		width: 370px;
+		height: 100px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(255,255,255,1);
+		z-index: 1;
+	}
+
+#circ7{
+		width: 30px;
+		height: 30px;
+		border-radius: 50%;
+		background-color: rgba(241,156,121,1);
+		left: 695px;
+		top: 13283px;
+		position: absolute;
+		z-index: 1;
+	}
+
+#ma7{
+		left: 525px;
+		top: 13261px;
+		position: absolute;
+		overflow: visible;
+		width: 370px;
+		height: 100px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(255,255,255,1);
+		z-index: 1;
+	}
+
+#circ8{
+		width: 30px;
+		height: 30px;
+		border-radius: 50%;
+		background-color: rgba(241,156,121,1);
+		left: 1043px;
+		top: 13283px;
+		position: absolute;
+		z-index: 1;
+	}
+
+#ma8{
+		left: 873px;
+		top: 13261px;
+		position: absolute;
+		overflow: visible;
+		width: 370px;
+		height: 100px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(255,255,255,1);
+		z-index: 1;
+	}
+
+#circ9{
+		width: 30px;
+		height: 30px;
+		border-radius: 50%;
+		background-color: rgba(241,156,121,1);
+		left: 1395px;
+		top: 13283px;
+		position: absolute;
+		z-index: 1;
+	}
+
+#ma9{
+		left: 1225px;
+		top: 13261px;
+		position: absolute;
+		overflow: visible;
+		width: 370px;
+		height: 100px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(255,255,255,1);
+		z-index: 1;
+	}
+
+#circ10{
+		width: 30px;
+		height: 30px;
+		border-radius: 50%;
+		background-color: rgba(241,156,121,1);
+		left: 1745px;
+		top: 13283px;
+		position: absolute;
+		z-index: 1;
+	}
+
+#ma10{
+		left: 1575px;
+		top: 13261px;
+		position: absolute;
+		overflow: visible;
+		width: 370px;
+		height: 100px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 23px;
+		color: rgba(255,255,255,1);
+		z-index: 1;
+	}
+
+#traco_3{
+		left: 950px;
+		top: 9900px;
+		position: absolute;
+		overflow: visible;
+		width: 780px;
+		height: 700px;
+	}
+
+#ret_cont{
+		background: #3D405B;
+		width: 1750px;
+		height: 580px;
+		left: 19px;
+		top: 14000px;
+		position: absolute;
+	}	
+
+#CONTACTOS{
+		top: 30px;
+		left: 100px;
+		text-align: center;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 55px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 2px;
+		position: absolute;
+	}
+
+#n_1_ENCONTRO_DE_CDM {
+		left: 200px;
+		top: 135px;
+		position: absolute;
+		width: 153px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: #999999;
+	}
+
+#tracitos_2{
+		left: 30px;
+		top: 61px;
+		width: 230px;
+		height: 200px;
+		position: absolute;
+	}
+
+#tracitos_3{
+		left: 270px;
+		top: 61px;
+		width: 300px;
+		height: 200px;
+		position: absolute;
+	}
+
+#Escola_Superior_de_Educ {
+		left: 104px;
+		top: 165px;
+		position: absolute;
+		width: 510px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+	}
+
+#i_localizacao{
+		left: 98px;
+		top: 265px;
+		position: absolute;
+	}
+
+#R_Dom_Joao_Coimbra {
+		left: 140px;
+		top: 247px;
+		position: absolute;
+		overflow: visible;
+		width: 214px;
+		white-space: nowrap;
+		line-height: 25px;
+		margin-top: -6px;
+		text-align: left;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: #999999;
+	}
+
+#i_telemovel{
+		width: 20px;
+		left: 105px;
+		top: 350px;
+		position: absolute;
+	}
+
+#Tel_239_793_120 {
+		left: 140px;
+		top: 335px;
+		position: absolute;
+		overflow: visible;
+		width: 214px;
+		white-space: nowrap;
+		line-height: 25px;
+		margin-top: -6px;
+		text-align: left;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: #999999;
+	}
+
+#i_mail{
+		width: 22px;
+		left: 105px;
+		top: 407px;
+		position: absolute;
+	}
+
+#encontrocdmesecpt {
+		left: 137px;
+		top: 395px;
+		position: absolute;
+		overflow: visible;
+		width: 214px;
+		white-space: nowrap;
+		line-height: 25px;
+		margin-top: -6px;
+		text-align: left;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: #999999;
+	}
+
+#i_site{
+		width: 22px;
+		left: 104px;
+		top: 445px;
+		position: absolute;
+	}
+
+#httpseventosesecpt10ecdm {
+		left: 136px;
+		top: 433px;
+		position: absolute;
+		overflow: visible;
+		width: 214px;
+		white-space: nowrap;
+		line-height: 25px;
+		margin-top: -6px;
+		text-align: left;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: #999999;
+	}
+
+#tracitos_4{
+		left: -1370px;
+		top: 450px;
+		width: 4430px;
+		height: 90px;
+		position: absolute;
+	}
+
+#Copyright_11_Encontro_de_CDM {
+		position: absolute;
+		overflow: visible;
+		width: 214px;
+		white-space: nowrap;
+		line-height: 25px;
+		top: 505px;
+		left: 120px;
+		text-align: left;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: white;
+	}
+
+#youtube{
+		top: 515px;
+		left: 1568px;
+		position: absolute;
+	}
+
+#instagram{
+		top: 519px;
+		left: 1535px;
+		width: 24px;
+		position: absolute;
+	}
+
+#twitter{
+		top: 519px;
+		left: 1500px;
+		width: 24px;
+		position: absolute;
+	}
+
+#facebook{
+		top: 517px;
+		left: 1468px;
+		width: 27px;
+		position: absolute;
+	}
+
+
+
+
